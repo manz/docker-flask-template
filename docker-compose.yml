@@ -1,0 +1,8 @@
+enroll:
+  build: .
+  environment:
+    - DEBUG=yes
+  env_file:
+    - ./secrets.env
+  ports:
+    - "8000:8000"
